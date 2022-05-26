@@ -1,1 +1,2 @@
-# 广东工业大学自动化
+School of Automation
+Guangdong University of Technology
