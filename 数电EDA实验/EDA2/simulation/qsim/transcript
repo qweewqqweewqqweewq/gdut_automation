@@ -1,0 +1,63 @@
+# do Block1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:46:08 on May 31,2022
+# vlog -work work Block1.vo 
+# -- Compiling module Block1
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	Block1
+# End time: 21:46:08 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:46:08 on May 31,2022
+# vlog -work work Waveform1.vwf.vt 
+# -- Compiling module Block1_vlg_vec_tst
+# 
+# Top level modules:
+# 	Block1_vlg_vec_tst
+# End time: 21:46:08 on May 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Block1_vlg_vec_tst 
+# Start time: 21:46:08 on May 31,2022
+# Loading work.Block1_vlg_vec_tst
+# Loading work.Block1
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from Block1_v.sdo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name2' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name3' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name4' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name5' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name6' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name7' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name8' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name9' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name10' not found in the connected module (10th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name11' not found in the connected module (11th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name12' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name13' not found in the connected module (13th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name14' not found in the connected module (14th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# ** Error: (vsim-3063) Waveform1.vwf.vt(50): Port 'pin_name15' not found in the connected module (15th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Block1_vlg_vec_tst/i1 File: Block1.vo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Error loading design
+# End time: 21:46:09 on May 31,2022, Elapsed time: 0:00:01
+# Errors: 14, Warnings: 0
